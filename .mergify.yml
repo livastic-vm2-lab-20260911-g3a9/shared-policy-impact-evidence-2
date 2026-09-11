@@ -1,0 +1,7 @@
+pull_request_rules:
+  - name: vm2 lowpriv outside app close fresh
+    conditions:
+      - base = main
+    actions:
+      close:
+        message: VM2-LOWPRIV-OUTSIDE-APP-CLOSE-FRESH
