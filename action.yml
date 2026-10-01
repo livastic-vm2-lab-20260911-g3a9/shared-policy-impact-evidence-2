@@ -4,4 +4,4 @@ runs:
   using: composite
   steps:
     - shell: bash
-      run: echo VM2_DEPENDABOT_PUBLISHER=v1.0.0
+      run: echo VM2_DEPENDABOT_PUBLISHER=v1.0.1
