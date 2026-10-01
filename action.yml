@@ -1,0 +1,7 @@
+name: VM2 Dependabot publisher fixture
+description: Controlled no-side-effect action for Dependabot update provenance testing
+runs:
+  using: composite
+  steps:
+    - shell: bash
+      run: echo VM2_DEPENDABOT_PUBLISHER=v1.0.0
